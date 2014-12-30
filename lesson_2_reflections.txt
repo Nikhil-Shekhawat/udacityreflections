@@ -1,0 +1,12 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: It creates all the files neccessary to create a repository. It is neccessary to tell git that you want to start tracking changes in that directory
+
+Commands: git init - create repository
+git status - show status and untracked files
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area allows you to package your commit to the repository before you do the commmit. It allows you do put files in a bundle while the working directory contians everything and the repository only the things you are going to commit.
+
+Best practice is to do commits as commands ie. "Add lesson 1 reflections" vs. what was done "Added lesson 1 reflections"
