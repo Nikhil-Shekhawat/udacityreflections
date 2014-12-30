@@ -1,0 +1,40 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: It picks up differences automatically between two files that would otherwise take much longer to do manually.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: It can show you the progression of a file but also allow you to revert changes which can gives you more freedom to experiment due to the safety net a history provides
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A: Pro - It allows you to break down work into logical units that are easier to compare and makes sense of the history of that file. This can also be easier for others to understand.
+
+Con - if your are not discipline or have practice it poorly you might lose changes or not have a version history that makes sense. This will make things harder for others to use.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because changes can be interelated or dependent on each other. Tracking them together makes it easier a change set as opposed to individual changes.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: git log shows you history of all commits where you can track changes by looking at comments
+
+git diff shows you differences between to commit points.
+
+--stat flag shows counts for changes, adds and deletes
+Commands
+--stat shows deletions and insertions
+git log --stat or git diff id1 id2 --stat
+
+Mac OSX Cmd: Command+Shift+H - takes you to the home directory!
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: It is easy to revert and find the issue that caused the behaviour in history. This allows for finding errors a lot faster!
+
+Setting up bash profile: https://www.udacity.com/course/viewer#!/c-ud775/l-2980038599/m-3333158951
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: To version all little scripts and projects in a repositiory to track and grow skills over time
