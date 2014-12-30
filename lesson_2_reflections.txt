@@ -17,3 +17,11 @@ Commands: git diff - show diff between working directory and staging area
 git diff --staged - show diff between staging area and repository
 
 git reset --hard - removes changes from staging area and working directory (CAREFULL!!)
+
+git checkout master - revert to master
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+By using the diff command against the most recent commit you can see that you are commiting the right changes.
+
+It differs from your working directory so you can also see most current against what you are reaady to commit by using the add command and the you can double check it against the latest commit.
