@@ -12,3 +12,8 @@ A: The staging area allows you to package your commit to the repository before y
 Best practice is to do commits as commands ie. "Add lesson 1 reflections" vs. what was done "Added lesson 1 reflections"
 
 Testing commit with nano: git config --global core.editor nano
+
+Commands: git diff - show diff between working directory and staging area
+git diff --staged - show diff between staging area and repository
+
+git reset --hard - removes changes from staging area and working directory (CAREFULL!!)
