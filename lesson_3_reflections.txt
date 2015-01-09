@@ -1,0 +1,3 @@
+command: git remote (see all git remotes)
+git remote add NAME GITHUBURL (standard default name is origin)
+git remove -v (verbose output shows feth and push urls) 
