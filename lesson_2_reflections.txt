@@ -22,6 +22,25 @@ git checkout master - revert to master
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
-By using the diff command against the most recent commit you can see that you are commiting the right changes.
+A: By using the diff command against the most recent commit you can see that you are commiting the right changes.
 
 It differs from your working directory so you can also see most current against what you are reaady to commit by using the add command and the you can double check it against the latest commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When trying out an experimental feature or when trying to translate your application. Another scenatio could be to try out some fundamental changes in the branch without affecting the master.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+By showing where the source commits splits or branches visually it is is easy to see the reachability and the the differences between the brahnches.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: We have a merged result that includes commits from both branches. The representation shows us the split in the timeline and then where they merged.
+
+Commands: git log --graph --oneline (draw graph in text of commits)
+git log -n 1 (show only n amount of commits, in this example one)
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Automatc is fast and easy but cannot resolve conflicts. Manual is slower but allows to resolve conflicts
