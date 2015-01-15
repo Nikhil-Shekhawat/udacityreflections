@@ -7,3 +7,7 @@ git remove -v (verbose output shows feth and push urls)
 
 Push repository to remote: git push origin master
 Pull repository from remote: git pull origin master
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Because you could be be busy modifying your version of master that could have conflicts with whats on GitHub. If you have branched your changes it might not be an issue, but it is better to be in control to keep track of the log
