@@ -1,3 +1,9 @@
-command: git remote (see all git remotes)
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: When you would like to collaborate with others, when you want edit source code from multiple systems, when you want to push changes to a remote server (Heroku?), to back up your repository
+
+commands: git remote (see all git remotes)
 git remote add NAME GITHUBURL (standard default name is origin)
 git remove -v (verbose output shows feth and push urls) 
+
+Push repository to remote: git push origin master
+Pull repository from remote: git pull origin master
