@@ -32,3 +32,9 @@ Fast-forward Merge: The branch you are merging into is an ancestor of the branch
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: You work on the latest changes without the need for an internet connection.
+
+Pushing new commits to a branch with a pull request will automatically update the pull request
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: You could communicate before making changes and compare files manually. There will be less commands to run but a lot more room for error. It also makes experimentation more difficult since you would have to create copies. 
