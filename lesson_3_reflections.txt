@@ -19,3 +19,16 @@ A:
 Branch: A subset of the repository that can be used to experiment or develop a new feature before commiting it to the master. It is within the same repository.
 Clone: A copy of a repository and it's commit history. This will be used to get a copy of someone elses repository or a remote repository that can be changed independantly.
 Fork: A GitHub concept of cloning a repository on the GitHub servers that also keeps the links to the original repository. Good to give the original authors credit and also show derivitives.
+
+Commands:
+git pull origin master
+IS THE SAME AS
+git fetch origin
+git merge master master/origin
+(it fetches the latest commits into a master/origin branch and then merges it)
+
+Fast-forward Merge: The branch you are merging into is an ancestor of the branch you merging from
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: You work on the latest changes without the need for an internet connection.
