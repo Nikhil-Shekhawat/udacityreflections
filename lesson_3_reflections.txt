@@ -38,3 +38,7 @@ Pushing new commits to a branch with a pull request will automatically update th
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: You could communicate before making changes and compare files manually. There will be less commands to run but a lot more room for error. It also makes experimentation more difficult since you would have to create copies. 
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you want to make changes or add aditional features that can be used in a pull request to add to the master by the maintainer. Great way to logical seperate a logical set of work to work on until it is done.
