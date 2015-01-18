@@ -1,0 +1,2 @@
+This is a test github file to check what happens if you directly create a file on the server.
+When would you want to use a remote repository rather than keeping all your work local?
